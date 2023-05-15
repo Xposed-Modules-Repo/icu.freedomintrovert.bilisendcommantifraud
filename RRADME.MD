@@ -1,0 +1,31 @@
+# 哔哩发评反诈
+发送评论后自动检查评论是否正常的Xposed模块。避免你的评论被仅自己可见或者被秒删了还给系统“发送成功”的谎言所欺骗，恢复在阿瓦隆系统下你对评论状态的知情权！
+# 简要使用说明
+先在哔哩发评反诈登录账号（设置cookie），而且登录的账号要与哔哩哔哩APP里登录的一致！不然一定会出现异想天开的问题🤣 
+  
+在哔哩哔哩APP里评论发送成功后，会调起本发评反诈进行检查，并在上面显示的对话框展示进度与检查结果。  
+  
+检查结果有3种：
+1. 评论正常显示
+2. 评论仅自己可见（ShadowBan）
+3. 评论被系统秒删  
+   
+当然，b站对于被ban的评论你还可以去[申诉](https://www.bilibili.com/h5/comment/appeal)，如果评论没毛病，多数时候是可以恢复正常显示的（当然你得自己发现评论是否异常🙃）。本软件集成了申诉功能，评论不能正常显示时可在对话框内选择[更多评论选项]==>[申诉]。
+
+开启统计功能可统计被ban评论以及戒严评论区。当评论不能正常显示时记入数据库进行统计，可分析什么样的评论会遭到系统屏蔽。
+  
+刚开始的时候（v1.0.0）并没有作为Xposed模块，要复制评论bv号，并在发评反诈里输入评论再发送进行检查。发送评论多了个复制bv号或链接的步骤，较为麻烦，但是开发了Xposed功能就舒服多了。  
+  
+详细使用教程与说明请查看本github项目主页，一定得先了解哔哩哔哩的「阿瓦隆」系统！
+# 下载
+https://github.com/freedom-introvert/biliSendCommAntifraud/releases
+# 完整使用说明/GitHub项目
+https://github.com/freedom-introvert/biliSendCommAntifraud
+## 关于
+### 讨论交流
+Telegram: [@biliSendCommAntifraud](https://t.me/biliSendCommAntifraud)
+### LOGO含义
+来自：Never Gonna Give You Up - Rick Astley  
+意为“发送成功”但是你被骗了🤪
+### 关于转载
+该模块仅在Xposed module repo官方仓库发布，请不要在哔哩哔哩以视频动态专栏宣传本模块！更不要在推特宣传本模块！其他平台随意，但也要考虑情况（比如小绿书慎重考虑）。
