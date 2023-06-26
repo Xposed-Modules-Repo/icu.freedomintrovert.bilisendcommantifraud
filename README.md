@@ -17,6 +17,15 @@
 刚开始的时候（v1.0.0）并没有作为Xposed模块，要复制评论bv号，并在发评反诈里输入评论再发送进行检查。发送评论多了个复制bv号或链接的步骤，较为麻烦，但是开发了Xposed功能就舒服多了。  
   
 详细使用教程与说明请查看本github项目主页，一定得先了解哔哩哔哩的「阿瓦隆」系统！
+
+## 支持的版本
+- 国内版已适配版本
+    - ? - 7.25.0 - 7.27.0
+    - 7.28.0 - 7.33.0
+    - 7.34.0
+    - 7.35.0 - ? 
+- 国际版已适配版本：
+    - ? - 3.16.0
 # 下载
 https://github.com/freedom-introvert/biliSendCommAntifraud/releases
 # 完整使用说明/GitHub项目
@@ -28,4 +37,4 @@ Telegram: [@biliSendCommAntifraud](https://t.me/biliSendCommAntifraud)
 来自：Never Gonna Give You Up - Rick Astley  
 意为“发送成功”但是你被骗了🤪
 ### 关于转载
-该模块仅在Xposed module repo官方仓库发布，请不要在哔哩哔哩以视频动态专栏宣传本模块！更不要在推特宣传本模块！其他平台随意，但也要考虑情况（比如小绿书慎重考虑）。
+该模块仅在Xposed module repo官方仓库发布，请不要在哔哩哔哩以视频动态专栏宣传本模块！更不要在推特宣传本模块！其他平台随意，但也要考虑情况（比如小绿书慎重考虑）。**转发包括readme一起请注意潜在的敏感信息，比如测试“包含敏感内容”的64，不然你的网站或者是号要没了哦:(**
