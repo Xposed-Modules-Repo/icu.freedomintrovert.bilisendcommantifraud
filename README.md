@@ -23,17 +23,16 @@
     - ? - 7.25.0 - 7.27.0
     - 7.28.0 - 7.33.0
     - 7.34.0
-    - 7.35.0 - 7.44.0 - ? 
+    - 7.35.0 - ? 
 - 国际版已适配版本：
-    - ? - 3.16.0 - 3.18.0 - ?
+    - ? - 3.16.0
 # 下载
 https://github.com/freedom-introvert/biliSendCommAntifraud/releases
 # 完整使用说明/GitHub项目
 https://github.com/freedom-introvert/biliSendCommAntifraud
 ## 关于
 ### 讨论交流
-Telegram: [@biliSendCommAntifraud](https://t.me/biliSendCommAntifraud)  
-Telegram频道:[@biliSendCommAntifraudRelease](https://t.me/biliSendCommAntifraudRelease)
+Telegram: [@biliSendCommAntifraud](https://t.me/biliSendCommAntifraud)
 ### LOGO含义
 来自：Never Gonna Give You Up - Rick Astley  
 意为“发送成功”但是你被骗了🤪
@@ -43,6 +42,13 @@ Telegram频道:[@biliSendCommAntifraudRelease](https://t.me/biliSendCommAntifrau
 ##  插曲
 ### 百度搜索
 请不要过度在百度搜索此模块名称：“哔哩发评反诈”，已造成不良影响了😅。
-![IMG_20230803_223529](https://github.com/Xposed-Modules-Repo/icu.freedomintrovert.bilisendcommantifraud/blob/main/IMG_20230803_223529.jpg)
+![IMG_20230803_223529](IMG_20230803_223529.jpg)
 ### 命名与国家反诈中心
 由于本应用的名称包含“反诈”一词，在受国家反诈中心监控的手机里，**被误以为是假冒国家反诈中心**，所以会有安装导致被反诈中心打电话😰。群里有真实被打电话的案例，但他却没有安装反诈中心。手机是MIUI14的系统，看来MIUI内置国家反诈中心的传闻并非危言耸听。究其原因是“应用包管理组件”上传了你所安装应用的信息，接着会传给MIUI服务器然后再发给真的反诈中心，手机号码绑定了小米账号，反诈中心就会根据这个手机号给你打电话。**安装时记得断网，避免被上传信息**！如果你怕会后台偷偷上传，那么聪明的你可以去找些屏蔽系统应用联网的模块，把一切所谓“保护安全”的应用禁止联网😉。
+## 我的另一个作品与嘲讽
+### [YouTube发评反诈](https://github.com/freedom-introvert/YouTubeSendCommentAntiFraud)  
+没错，油管发评反诈，YouTube版阿瓦隆！他不仅把阿瓦隆完整的抄了一遍，甚至能做得比b站更绝！b站可恶之处只在于隐评删评，YouTube可恶之处不止隐评删评，部分评论还会不让出现在“热门”列表里，接着热门的列表还故意让那些它认为偏向夸赞的评论排在前面（如“暖心”），有些评论即使点赞多的，但是不够暖心但它也会被排到后面去。所以为什么YouTube的评论区都是夸赞一边倒的，似乎看不到骂与批评。   
+  
+你阿美莉卡说的言论自由何存呢？我们小粉红最喜欢看你们闹笑话了🤣👉🤡   
+
+_ps：当然对于热门列表的相关检测暂未支持，因为没啥人用，我不想多费力气，想要的话去YouTube发评反诈的仓库发issues，我立即编写代码更新_
